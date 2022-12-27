@@ -1,0 +1,7 @@
+1.Build the Docker image using the following command:
+  docker build -t paragraph-analyzer .
+2.Run the container using the following command:
+  docker run -p 5000:5000 paragraph-analyzer
+3. website is accessable at http://127.0.0.1:5000, enter the paragraph and submit the result .
+  after submitting the result page navigates to analyze route where you will be see outputs of each paragrpah analyzer methods. 
+
